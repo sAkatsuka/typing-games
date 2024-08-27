@@ -1,0 +1,74 @@
+/* Reset CSS 省略 */
+
+/* Reset CSS ここまで */
+
+body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+.text-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    font-size: 3vw;
+    margin-bottom: 1rem;
+}
+
+.text-container label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    display: flex;
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    text-align: center;
+}
+
+.marker {
+    background: #b0e0e6;
+}
+
+.text {
+    width: 100%;
+    border: none;
+    margin-top: 2rem;
+    font-size: 2vw;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.text:focus,
+.text:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.message {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button {
+    margin-top: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

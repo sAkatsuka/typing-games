@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game" class="text-container">
+        <div id="timer" class="timer">00:00</div>
+        <label for="inputText">
+            <div class="question">
+                <span id="entered" class="marker"></span>
+                <span id="remained"></span>
+            </div>
+            <input type="text" class="text" id="inputText" autofocus>
+        </label>
+    </div>
+
+    <div id="message" class="text-container hidden">
+        <div class="message">
+            ゲームクリア！<br>
+            <button id="replayBtn" class="button">もう一度プレイ</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
